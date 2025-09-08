@@ -37,24 +37,6 @@ Sort the array, and then use a combination of two-pointers and nested loops to f
 
 ---
 
-### 2. Brute Force Approach (For Educational Purposes)
-
-This approach uses four nested loops to check every combination of four numbers and see if they sum to the target value.
-
-**Algorithm:**
-- Iterate through all possible quadruplets using four loops.
-- Check if the sum of the four elements equals the target, and if it does, add the quadruplet to the result.
-- This solution will likely involve checking duplicate quadruplets, which can be avoided later by checking and removing duplicates.
-
-> ⚠️ **Note:** This solution is not optimal and is provided for educational purposes only.
-
-**Time Complexity:** O(n⁴)  
-**Space Complexity:** O(1) (excluding the output list)
-
-🔗 Code: [`With_Brute_Force.cpp`](./With_Brute_Force.cpp)
-
----
-
 ## 📦 Output Format Clarification
 
 The result should be a list of unique quadruplets where each quadruplet is represented as a list of four integers, and the quadruplets themselves should be sorted in ascending order.
