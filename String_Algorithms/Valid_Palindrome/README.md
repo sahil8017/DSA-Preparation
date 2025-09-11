@@ -42,7 +42,7 @@ This solution uses two pointers to compare characters from the beginning and end
 **Time Complexity:** O(n), where `n` is the length of the string.  
 **Space Complexity:** O(1), as only a few variables are used.
 
-🔗 Code: [`TwoPointer_Optimal.py`](./TwoPointer_Optimal.py)
+🔗 Code: [`TwoPointer_Optimal.py`](./TwoPointer_Optimal.cpp)
 
 ---
 
@@ -57,7 +57,7 @@ A simpler approach that involves filtering and then comparing the string.
 **Time Complexity:** O(n), where `n` is the length of the string.  
 **Space Complexity:** O(n) due to the creation of the filtered string.
 
-🔗 Code: [`BruteForce_Filter.py`](./BruteForce_Filter.py)
+🔗 Code: [`BruteForce_Filter.py`](./BruteForce_Filter.cpp)
 
 ---
 
