@@ -42,6 +42,8 @@ This solution checks every possible substring of `haystack` that has the same le
 **Time Complexity:** O(n * m)  
 **Space Complexity:** O(1)
 
+🔗 Code: [`BruteForce_Solution.cpp`](./BruteForce_Solution.cpp)
+
 ---
 
 ### 2. Using `std::string::find` (Built-in Function)
@@ -54,6 +56,8 @@ The simplest and most efficient solution leverages C++'s built-in `find()` funct
 
 **Time Complexity:** O(n)  
 **Space Complexity:** O(1)
+
+🔗 Code: [`BuiltInFind_Solution.cpp`](./BuiltInFind_Solution.cpp)
 
 ---
 
