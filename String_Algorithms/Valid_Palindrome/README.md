@@ -46,21 +46,6 @@ This solution uses two pointers to compare characters from the beginning and end
 
 ---
 
-### 2. Brute Force with String Filtering (Educational Only)
-
-A simpler approach that involves filtering and then comparing the string.
-
-**Algorithm:**
-- Filter out non-alphanumeric characters and convert the string to lowercase.
-- Compare the filtered string with its reverse.
-
-**Time Complexity:** O(n), where `n` is the length of the string.  
-**Space Complexity:** O(n) due to the creation of the filtered string.
-
-🔗 Code: [`BruteForce_Filter.py`](./BruteForce_Filter.cpp)
-
----
-
 ## 🧪 Edge Cases to Consider
 
 - An empty string: `""` should return `true`.
