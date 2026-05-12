@@ -569,7 +569,8 @@ def pattern34(n):
         for j in range(2*n-2*i):
             print(" ",end=" ")   
         for j in range(1,i+1):
-            print(j,end=" ")     
+            print(i,end=" ")     
+            i -= 1
         print()
 pattern34(4)
 
